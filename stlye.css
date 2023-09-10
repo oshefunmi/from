@@ -1,0 +1,63 @@
+body{
+    background-image: none;
+    background-image:url(planet.webp) ;
+    background-image: linear-gradient();
+    background-position: center;
+    background-color: rgb(80, 80, 165);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(120, 136, 226, 0.5),rgba(4, 12, 58, 0.5));
+    padding: 10px ;
+    border: rgb(70, 69, 128) solid;
+    position: sticky;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+form{
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+.form{
+    background-color: rgba(255, 255, 255, o.7) ;
+    padding: 30px;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(200, 200, 255, 0.7), rgba(130, 130, 235, 0.5));
+    border-radius: 7px;
+    border: rgb(97, 102, 145) solid;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+#sub{
+    margin-top: 20px ;
+    background-image: linear-gradient(rgb(194, 63, 211), rgb(25, 1, 32));
+    
+}
+
+#reset{
+    margin-top: 20px;
+    background-image: linear-gradient( rgb(59, 55, 53), rgb(6, 4, 110));
+}
+
+footer{
+    padding: 10px;
+    margin-top: 80px;
+}
